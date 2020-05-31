@@ -99,7 +99,7 @@ border-right: 2px solid rgb(137,137,137);
 }
 
 .preludeCards {
-  height: 240px;
+  height: 310px;
 }
 
 .colonyCards {
@@ -285,7 +285,7 @@ border-right: 2px solid rgb(137,137,137);
 
 .preludeCard-icon:after {
   margin-left: -232px;
-  margin-top: 214px;
+  margin-top: 284px;
 }
 
 .corporation-icon:after {
@@ -942,6 +942,17 @@ border-right: 2px solid rgb(137,137,137);
     line-height: 20px;
     font-weight: bold;
     text-align: center;
+}
+
+.contract-content {
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: left;
 }
 
 .contentCorporation {
@@ -1670,6 +1681,8 @@ border-right: 2px solid rgb(137,137,137);
     border-radius: 7px 7px 2px 2px;
 }
 
+
+
 .corporationEffectBox {
     position: absolute;
     border-top: 2px solid rgb(221,221,221);
@@ -2324,6 +2337,19 @@ input[type=radio]:checked + label {
   font-size:13px;
   margin-left:0px;
   margin-bottom: 0px;
+}
+
+.aliencorptitel {
+  font-family: Prototype;
+  width: 180px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 22px;
+  border-bottom: 3px solid #cc3333;
+  border-top: 3px solid #cc3333;
+  margin-top: 3px;
+  margin-bottom: 5px;
 }
 
 .aridor {
